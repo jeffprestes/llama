@@ -26,7 +26,7 @@
     "hubot-reaction": "0.0.6",
     "hubot-redis-brain": "0.0.2",
     "hubot-rules": "^0.1.0",
-    "hubot-scripts": "^2.5.16",
+    "hubot-scripts": "^2.17.2",
     "hubot-seen": "^0.2.2",
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.1.2",
