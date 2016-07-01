@@ -29,8 +29,9 @@ response = [
 ]
 
 module.exports = (robot) ->
-  robot.respond /enois(s| you)/i, (msg) ->
+  robot.respond /enois/i, (msg) ->
     msg.send msg.random response
-  enois = new RegExp "enois(s| you) #{robot.name}", "i"
+    
+  enois = new RegExp "enois #{robot.name}", "i"
   robot.hear enois, (msg) ->
     msg.send msg.random response
